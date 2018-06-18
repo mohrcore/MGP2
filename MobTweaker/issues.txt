@@ -1,0 +1,5 @@
+15.09.2016
+
+- Only .obj files are being loaded (almost) correctly
+- Texture UVs seems to not load correctly when opening .obj files
+- Ugly code: some render method in Renderer take const reference for rendered objects while some take non-const references.

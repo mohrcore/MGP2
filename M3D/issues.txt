@@ -1,0 +1,6 @@
+03.10.2016
+
+- !!! SERIOUS ARCHITECTURAL ISSUES !!!
+
+- Shader bind/unbind spamming (Create shader managing class?)
+- Entity is deprecated, should be removed

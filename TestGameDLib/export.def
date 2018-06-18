@@ -1,0 +1,4 @@
+LIBRARY   TESTGAMEDLIB
+EXPORTS
+
+getFctPtrList   @1

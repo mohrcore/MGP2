@@ -1,0 +1,55 @@
+LIBRARY M3D_FW_UNWRAP
+
+EXPORTS
+
+DllMain = DllMain
+m3dfw_win32__createWindow = m3dfw_win32__createWindow
+m3dfw__init = m3dfw__init
+m3dfw__new__ResourceBase = m3dfw__new__ResourceBase
+m3dfw__delete__ResourceBase = m3dfw__delete__ResourceBase
+m3dfw__new__ResourceManager = m3dfw__new__ResourceManager
+m3dfw__delete__ResourceManager = m3dfw__delete__ResourceManager
+m3dfw__new__ResourceLoader = m3dfw__new__ResourceLoader
+m3dfw__delete__ResourceLoader = m3dfw__delete__ResourceLoader
+m3dfw__ResourceLoader_importGfxModel3d = m3dfw__ResourceLoader_importGfxModel3d
+m3dfw__ResourceLoader_importGTexture2d = m3dfw__ResourceLoader_importGTexture2d
+m3dfw__ResourceLoader_importGMaterial = m3dfw__ResourceLoader_importGMaterial
+m3fdw__new__Vec3f = m3fdw__new__Vec3f
+m3dfw__new__Vec3f__arg_float_float_float = m3dfw__new__Vec3f__arg_float_float_float
+m3dfw__delete__Vec3f = m3dfw__delete__Vec3f
+m3dfw__Vec3f_Add = m3dfw__Vec3f_Add
+m3dfw__Vec3f_Sub = m3dfw__Vec3f_Sub
+m3dfw__Vec3f_Cross = m3dfw__Vec3f_Cross
+m3dfw__Vec3f_Scl = m3dfw__Vec3f_Scl
+m3dfw__Vec3f_Div = m3dfw__Vec3f_Div
+m3dfw__Vec3f_length = m3dfw__Vec3f_length
+m3dfw__Vec3f_Get_x = m3dfw__Vec3f_Get_x
+m3dfw__Vec3f_Get_y = m3dfw__Vec3f_Get_y
+m3dfw__Vec3f_Get_z = m3dfw__Vec3f_Get_z
+m3dfw__Vec3f_Set_x = m3dfw__Vec3f_Set_x
+m3dfw__Vec3f_Set_y = m3dfw__Vec3f_Set_y
+m3dfw__Vec3f_Set_z = m3dfw__Vec3f_Set_z
+m3fdw__new__Vec2f = m3fdw__new__Vec2f
+m3dfw__new__Vec2f__arg_float_float = m3dfw__new__Vec2f__arg_float_float
+m3dfw__delete__Vec2f = m3dfw__delete__Vec2f
+m3dfw__Vec2f_Add = m3dfw__Vec2f_Add
+m3dfw__Vec2f_Sub = m3dfw__Vec2f_Sub
+m3dfw__Vec2f_Scl = m3dfw__Vec2f_Scl
+m3dfw__Vec2f_Div = m3dfw__Vec2f_Div
+m3dfw__Vec2f_length = m3dfw__Vec2f_length
+m3dfw__Vec2f_Get_x = m3dfw__Vec2f_Get_x
+m3dfw__Vec2f_Get_y = m3dfw__Vec2f_Get_y
+m3dfw__Vec2f_Set_x = m3dfw__Vec2f_Set_x
+m3dfw__Vec2f_Set_y = m3dfw__Vec2f_Set_y
+m3fdw__new__Quaternion = m3fdw__new__Quaternion
+m3fdw__new__Quaternion__arg_float_float_float_float = m3fdw__new__Quaternion__arg_float_float_float_float
+m3dfw__delete__Quaternion = m3dfw__delete__Quaternion
+m3dfw__Quaternion_toMatrix = m3dfw__Quaternion_toMatrix
+m3dfw__Quaternion_Get_e = m3dfw__Quaternion_Get_e
+m3dfw__Quaternion_Get_i = m3dfw__Quaternion_Get_i
+m3dfw__Quaternion_Get_j = m3dfw__Quaternion_Get_j
+m3dfw__Quaternion_Get_k = m3dfw__Quaternion_Get_k
+m3dfw__Quaternion_Set_e = m3dfw__Quaternion_Set_e
+m3dfw__Quaternion_Set_i = m3dfw__Quaternion_Set_i
+m3dfw__Quaternion_Set_j = m3dfw__Quaternion_Set_j
+m3dfw__Quaternion_Set_k = m3dfw__Quaternion_Set_k

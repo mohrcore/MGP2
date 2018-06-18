@@ -1,0 +1,63 @@
+﻿<Window x:Class="M3DEngineUI.GoodEditor"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:M3DEngineUI"
+        mc:Ignorable="d"
+        Title="GoodEditor" Height="720" Width="1024" Closing="Window_Closing">
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="M3D_Design.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Window.Resources>
+
+    <Window.Style>
+        <Style TargetType="{x:Type Window}">
+            <Setter Property="Background" Value="#212121" />
+        </Style>
+    </Window.Style>
+
+    <Grid Margin="0,0,0,0">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="64"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="22"/>
+        </Grid.RowDefinitions>
+        <Menu VerticalAlignment="Top">
+            <MenuItem Header="File">
+                <MenuItem Header="New..."/>
+                <MenuItem Header="Load..."/>
+                <MenuItem Header="Save"/>
+                <MenuItem Header="Save As..."/>
+                <Separator></Separator>
+                <MenuItem Header="Close Solution"/>
+                <MenuItem Name="exit_menuitem" Header="Exit" Click="exit_menuitem_Click"/>
+            </MenuItem>
+            <MenuItem Header="Edit"/>
+            <MenuItem Header="Tools"/>
+            <MenuItem Header="Help"/>
+        </Menu>
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition Width="255"/>
+            </Grid.ColumnDefinitions>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition Height="151.254"/>
+                </Grid.RowDefinitions>
+                <GridSplitter Grid.Row="1" HorizontalAlignment="Stretch" Height="3" VerticalAlignment="Top" Style="{StaticResource super_dark_style}"/>
+                <Border Name="ViewportBorder" BorderBrush="Black" BorderThickness="0"/>
+                <Button Content="Add Resource" HorizontalAlignment="Left" Margin="10,10,0,0" Grid.Row="1" Width="99" Background="{StaticResource accent_brush_1}" Style="{StaticResource m3d_button}"  Height="26" VerticalAlignment="Top"/>
+            </Grid>
+            <GridSplitter Grid.Column="1" HorizontalAlignment="Left" Margin="0,0,0,0" Width="3" Style="{StaticResource super_dark_style}"/>
+        </Grid>
+        <StatusBar Grid.Row="2" Style="{StaticResource dark_color_1_style}"/>
+        <ToolBarTray Margin="0,17.96,0,0" Style="{StaticResource super_dark_style}"/>
+
+    </Grid>
+</Window>

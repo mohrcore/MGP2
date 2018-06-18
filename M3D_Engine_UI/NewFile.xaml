@@ -1,0 +1,19 @@
+﻿<Window x:Class="M3DEngineUI.NewFile"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:M3DEngineUI"
+        mc:Ignorable="d"
+        Title="NewFile" Height="300" Width="500" WindowStyle="ToolWindow">
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="#FF2F2F37" Offset="0.974"/>
+                <GradientStop Color="Black" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <TextBox x:Name="textBox" Height="21.276" Margin="10,0,10,228.979" TextWrapping="Wrap" Text="Nazwa nowego pliku" VerticalAlignment="Bottom" Background="White"/>
+
+    </Grid>
+</Window>

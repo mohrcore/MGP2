@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="DEV-INFO">
+      <UniqueIdentifier>{37c8efca-cf8a-498f-a7d5-dc1f369ad82a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Textures">
+      <UniqueIdentifier>{ee425977-b79f-47d9-b684-32bfd0078d2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Models">
+      <UniqueIdentifier>{30115f9a-f099-435c-b449-84d52aa718ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Shaders">
+      <UniqueIdentifier>{3d21b72b-bf17-4967-a292-7fb2d7e67464}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Fonts">
+      <UniqueIdentifier>{0f531eb4-394b-4a8a-89f0-1ef34ce40ef5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Textures\maps">
+      <UniqueIdentifier>{5a407108-8453-4b4e-9054-6bd7a07342f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Textures\maps\maps1">
+      <UniqueIdentifier>{daf1d938-88ef-456c-8f15-552ae5a22c92}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="IMP_Asset.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="IMP_Asset.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="issues.txt">
+      <Filter>DEV-INFO</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\models\cubepanel.FBX">
+      <Filter>Resource Files\Models</Filter>
+    </None>
+    <None Include="resources\models\cubepanel.mtl">
+      <Filter>Resource Files\Models</Filter>
+    </None>
+    <None Include="resources\shaders\static.vert">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="resources\shaders\static_ppl.frag">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="resources\shaders\static_ppl.vert">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="resources\shaders\static.frag">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="resources\models\cubepanel.obj">
+      <Filter>Resource Files\Models</Filter>
+    </None>
+    <None Include="resources\fonts\Simplex_IV50_DF.fnt">
+      <Filter>Resource Files\Fonts</Filter>
+    </None>
+    <None Include="text.frag">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="resources\textures\test1.png">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+    <Image Include="resources\textures\test2.png">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+    <Image Include="resources\fonts\Simplex_IV50_DF.png">
+      <Filter>Resource Files\Fonts</Filter>
+    </Image>
+    <Image Include="maps\lppaneldiff.png">
+      <Filter>Resource Files\Textures\maps</Filter>
+    </Image>
+    <Image Include="maps\Map__5_Color Correction.png">
+      <Filter>Resource Files\Textures\maps</Filter>
+    </Image>
+    <Image Include="maps\Map__7_Color Correction.png">
+      <Filter>Resource Files\Textures\maps</Filter>
+    </Image>
+    <Image Include="maps\Normal_Bump_Normal Bump.png">
+      <Filter>Resource Files\Textures\maps</Filter>
+    </Image>
+    <Image Include="resources\models\maps\Map__5_Color Correction.png">
+      <Filter>Resource Files\Textures\maps\maps1</Filter>
+    </Image>
+    <Image Include="resources\models\maps\Map__7_Color Correction.png">
+      <Filter>Resource Files\Textures\maps\maps1</Filter>
+    </Image>
+    <Image Include="resources\models\maps\Normal_Bump_Normal Bump.png">
+      <Filter>Resource Files\Textures\maps\maps1</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

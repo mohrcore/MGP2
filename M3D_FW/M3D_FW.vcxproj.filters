@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\SystemSpecific">
+      <UniqueIdentifier>{05c8c8ef-81c6-47c4-98b5-4c4e964c9c2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SystemSpecific">
+      <UniqueIdentifier>{05743622-03f6-468f-ba74-557022f8cc84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SystemSpecific\Graphics">
+      <UniqueIdentifier>{fb7d6e28-a226-4bd1-afe8-7f4e154036b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SystemSpecific\Graphics">
+      <UniqueIdentifier>{8b4dc099-dcf4-4a6b-a832-4a4ff941df49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Importers and Loaders">
+      <UniqueIdentifier>{a1a7cc02-85db-4f53-b29a-fe929b7ff317}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Importers and Loaders">
+      <UniqueIdentifier>{c0e9017e-77d4-4fca-93fb-8cabd84127dc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="System.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ChangeController.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TaskManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Scheduler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Clock.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TaskManager2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MessageTypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsSystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonTypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GMesh3d.h">
+      <Filter>Header Files\SystemSpecific\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="GfxModel3d.h">
+      <Filter>Header Files\SystemSpecific\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Util.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameDLib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DllLoader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameDLib_DEF.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderGroups.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GfxScene.h">
+      <Filter>Header Files\SystemSpecific\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="GfxObject.h">
+      <Filter>Header Files\SystemSpecific\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="GfxSceneConfig.h">
+      <Filter>Header Files\SystemSpecific\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="O3DRendererGL.h">
+      <Filter>Header Files\SystemSpecific\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="GLSLProgramParseInfo.h">
+      <Filter>Header Files\SystemSpecific\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="GTexture2d.h">
+      <Filter>Header Files\SystemSpecific\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderManager.h">
+      <Filter>Header Files\SystemSpecific\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Importer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryManagement.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Messages.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GfxModel3dLoader.h">
+      <Filter>Header Files\Importers and Loaders</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceLoader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GTexture2dLoader.h">
+      <Filter>Header Files\Importers and Loaders</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderConfigInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderConfigurations.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Init.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HardwareInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GMaterial.h">
+      <Filter>Header Files\SystemSpecific\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera3d.h">
+      <Filter>Header Files\SystemSpecific\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="GMaterialLoader.h">
+      <Filter>Header Files\Importers and Loaders</Filter>
+    </ClInclude>
+    <ClInclude Include="GfxLight.h">
+      <Filter>Header Files\SystemSpecific\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="GfxSceneLoader.h">
+      <Filter>Header Files\Importers and Loaders</Filter>
+    </ClInclude>
+    <ClInclude Include="GfxEnvironment.h">
+      <Filter>Header Files\SystemSpecific\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="List.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="System.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ChangeController.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TaskManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Scheduler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Clock.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Messages.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TaskManager2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsSystem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CommonTypes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GMesh3d.cpp">
+      <Filter>Source Files\SystemSpecific\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="GfxModel3d.cpp">
+      <Filter>Source Files\SystemSpecific\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Util.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameDLib.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DllLoader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderGroups.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GfxObject.cpp">
+      <Filter>Source Files\SystemSpecific\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="GfxScene.cpp">
+      <Filter>Source Files\SystemSpecific\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="GfxSceneConfig.cpp">
+      <Filter>Source Files\SystemSpecific\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="O3DRendererGL.cpp">
+      <Filter>Source Files\SystemSpecific\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="GTexture2d.cpp">
+      <Filter>Source Files\SystemSpecific\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="GLSLProgramParseInfo.cpp">
+      <Filter>Source Files\SystemSpecific\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderManager.cpp">
+      <Filter>Source Files\SystemSpecific\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Resource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Importer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MemoryManagement.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GfxModel3dLoader.cpp">
+      <Filter>Source Files\Importers and Loaders</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceLoader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GTexture2dLoader.cpp">
+      <Filter>Source Files\Importers and Loaders</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderConfigInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderConfigurations.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Init.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HardwareInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GMaterial.cpp">
+      <Filter>Source Files\SystemSpecific\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera3d.cpp">
+      <Filter>Source Files\SystemSpecific\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="GMaterialLoader.cpp">
+      <Filter>Source Files\Importers and Loaders</Filter>
+    </ClCompile>
+    <ClCompile Include="GfxLight.cpp">
+      <Filter>Source Files\SystemSpecific\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="GfxSceneLoader.cpp">
+      <Filter>Source Files\Importers and Loaders</Filter>
+    </ClCompile>
+    <ClCompile Include="GfxEnvironment.cpp">
+      <Filter>Source Files\SystemSpecific\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="List.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

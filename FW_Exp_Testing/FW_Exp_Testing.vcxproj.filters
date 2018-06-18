@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Shaders">
+      <UniqueIdentifier>{a79c51bc-5317-4807-9271-2d400325eec5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Models">
+      <UniqueIdentifier>{20f76ac3-8817-4fc9-a9f9-e846186c5ced}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Materials">
+      <UniqueIdentifier>{762763d4-26c8-417d-9f62-eee02e2e59c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\MDPs">
+      <UniqueIdentifier>{a6b87707-0dc7-4898-9fcd-82998971c475}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Textures">
+      <UniqueIdentifier>{52df69d5-f25e-4865-83b8-c5ea3cb71045}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="FW_Exp_Testing.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\Icons\m3dlogo_icon.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Icons\m3dlogo_icon_16.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="maps\Map__3_Cellular.png">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+    <Image Include="maps\tm1.bmp">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\shaders\static.frag">
+      <Filter>Source Files\Shaders</Filter>
+    </None>
+    <None Include="resources\shaders\static.vert">
+      <Filter>Source Files\Shaders</Filter>
+    </None>
+    <None Include="resources\shaders\static_ppl.frag">
+      <Filter>Source Files\Shaders</Filter>
+    </None>
+    <None Include="resources\shaders\static_ppl.vert">
+      <Filter>Source Files\Shaders</Filter>
+    </None>
+    <None Include="resources\shaders\test_red.frag">
+      <Filter>Source Files\Shaders</Filter>
+    </None>
+    <None Include="resources\shaders\test_red.vert">
+      <Filter>Source Files\Shaders</Filter>
+    </None>
+    <None Include="tm3.mob">
+      <Filter>Resource Files\Models</Filter>
+    </None>
+    <None Include="tm3_mat_0.mmt">
+      <Filter>Resource Files\Materials</Filter>
+    </None>
+    <None Include="tm3_mat_1.mmt">
+      <Filter>Resource Files\Materials</Filter>
+    </None>
+    <None Include="tm3.mdp">
+      <Filter>Resource Files\MDPs</Filter>
+    </None>
+  </ItemGroup>
+</Project>
